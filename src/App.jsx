@@ -4,9 +4,11 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <div>
+      <div className="main">
         <Navbar />
-        <h1>Sup</h1>
+
+        <h1 className="head">Christian Smith</h1>
+        <h4 className="desc">Software engineer and web developer</h4>
       </div>
     </>
   );
