@@ -1,21 +1,21 @@
 import React from "react";
 import "../styles/navbar.css";
-import Link from "next/link";
+import Route from "react";
 
 function Navbar() {
   return (
     <div className="navbar">
       <li>
-        <Link href="/">Home</Link>
+        <Route href="/">Home</Route>
       </li>
       <li>
-        <Link href="#about">About</Link>
+        <Route href="#about">About</Route>
       </li>
       <li>
-        <Link href="#portfolio">Portfolio</Link>
+        <Route href="#portfolio">Portfolio</Route>
       </li>
       <li>
-        <Link href="#contact">Contact</Link>
+        <Route href="#contact">Contact</Route>
       </li>
     </div>
   );
