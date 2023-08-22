@@ -9,13 +9,13 @@ function Navbar() {
         <Route href="/">Home</Route>
       </li>
       <li>
-        <Route href="#about">About</Route>
+        <Route href="/about">About</Route>
       </li>
       <li>
-        <Route href="#portfolio">Portfolio</Route>
+        <Route href="/portfolio">Portfolio</Route>
       </li>
       <li>
-        <Route href="#contact">Contact</Route>
+        <Route href="/contact">Contact</Route>
       </li>
     </div>
   );
