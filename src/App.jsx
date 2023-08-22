@@ -1,10 +1,10 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="main">
-      <Navbar />
+      {/* <Navbar /> */}
 
       <h1 className="head">Christian Smith</h1>
       <h4 className="desc">Software engineer and web developer</h4>
