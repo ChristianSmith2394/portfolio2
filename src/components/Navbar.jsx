@@ -1,36 +1,45 @@
 import React from "react";
 import "../styles/navbar.css";
-import { NavLink } from "react-router-dom";
+import { Router, Routes, Link } from "react-router-dom";
+import About from "../components/About.jsx";
+import Projects from "../components/Projects.jsx";
+import Contact from "../components/Contact.jsx";
+import App from "../App";
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <h1>navbar</h1>
-      {/* <nav className="nav">
+    <Router>
+      <div className="navbar">
         <ul className="nav-items">
           <li className="nav-item">
-            <NavLink to="/" exact activeClassName="active">
+            <Link to="/" exact activeClassName="active">
               Home
-            </NavLink>
+            </Link>
           </li>
           <li className="nav-item">
-            <NavLink to="/about" exact activeClassName="active">
+            <Link to="/about" exact activeClassName="active">
               About
-            </NavLink>
+            </Link>
           </li>
           <li className="nav-item">
-            <NavLink to="/portfolios" exact activeClassName="active">
+            <Link to="/projects" exact activeClassName="active">
               Projects
-            </NavLink>
+            </Link>
           </li>
           <li className="nav-item">
-            <NavLink to="/contact" exact activeClassName="active">
+            <Link to="/contact" exact activeClassName="active">
               Contact
-            </NavLink>
+            </Link>
           </li>
         </ul>
-      </nav> */}
-    </div>
+        <Routes>
+          <Route exact path="/" element={<App />}></Route>
+          <Route exact path="/about" element={<About />}></Route>
+          <Route exact path="/projects" element={<Projects />}></Route>
+          <Route exact path="/contact" element={<Contact />}></Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
