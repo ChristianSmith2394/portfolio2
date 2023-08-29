@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/navbar.css";
-import { Router, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import About from "../components/About.jsx";
 import Projects from "../components/Projects.jsx";
 import Contact from "../components/Contact.jsx";
@@ -10,26 +10,18 @@ function Navbar() {
   return (
     <Router>
       <div className="navbar">
-        <ul className="nav-items">
-          <li className="nav-item">
-            <Link to="/" exact activeClassName="active">
-              Home
-            </Link>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
           </li>
-          <li className="nav-item">
-            <Link to="/about" exact activeClassName="active">
-              About
-            </Link>
+          <li>
+            <Link to="/about">About</Link>
           </li>
-          <li className="nav-item">
-            <Link to="/projects" exact activeClassName="active">
-              Projects
-            </Link>
+          <li>
+            <Link to="/projects">Projects</Link>
           </li>
-          <li className="nav-item">
-            <Link to="/contact" exact activeClassName="active">
-              Contact
-            </Link>
+          <li>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
         <Routes>
