@@ -4,6 +4,7 @@ import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
 import Home from "./Home.jsx";
 import { NavLink, Route, Routes } from "react-router-dom";
+import "../styles/navbar.css";
 
 function Navbar() {
   return (
