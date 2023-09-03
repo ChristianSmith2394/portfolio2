@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/navbar.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import About from "../components/About.jsx";
 import Projects from "../components/Projects.jsx";
 import Contact from "../components/Contact.jsx";
@@ -8,30 +8,38 @@ import App from "../App";
 
 function Navbar() {
   return (
-    <Router>
-      <div className="navbar">
+    <div className="navbar">
+      <Routes>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Route path="/" element={<App />}>
+              Home
+            </Route>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Route path="/about" element={<About />}>
+              About
+            </Route>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Route path="/projects" element={<Projects />}>
+              Projects
+            </Route>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Route path="/contact" element={<Contact />}>
+              Contact
+            </Route>
           </li>
         </ul>
-        <Routes>
+        {/* <Routes>
           <Route exact path="/" element={<App />}></Route>
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/projects" element={<Projects />}></Route>
           <Route exact path="/contact" element={<Contact />}></Route>
-        </Routes>
-      </div>
-    </Router>
+        </Routes> */}
+      </Routes>
+    </div>
   );
 }
 
