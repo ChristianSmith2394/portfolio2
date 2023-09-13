@@ -3,8 +3,8 @@ import ContactItem from "./ContactItem.jsx";
 import phone from "../assets/phone.svg";
 import email from "../assets/emailme.svg";
 import location from "../assets/location.svg";
-import Title from "../Components/Title.jsx";
-import "../styles/contact.css"
+import Title from "./Title.jsx";
+import "../styles/contact.css";
 
 function Contact() {
   return (

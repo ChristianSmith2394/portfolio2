@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/contactItem.css";
+// import "../styles/contactItem.css";
 
 function ContactItem({ icon, text1, text2, title }) {
   return (
