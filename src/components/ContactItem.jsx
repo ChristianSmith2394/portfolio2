@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/contactItem.css";
 
 function ContactItem({ icon, text1, text2, title }) {
   return (
-    <div className="ContactItem">
+    <div className="item">
       <div className="contact">
         <img src={icon} alt="" />
         <div className="right-items">
