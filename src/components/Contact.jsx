@@ -1,8 +1,8 @@
 import React from "react";
 import ContactItem from "./ContactItem";
-import phone from "../img/phone.svg";
-import email from "../img/emailme.svg";
-import location from "../img/location.svg";
+import phone from "../assets/phone.svg";
+import email from "../assets/emailme.svg";
+import location from "../assets/location.svg";
 import Title from "../Components/Title";
 
 function Contact() {
