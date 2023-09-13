@@ -4,7 +4,7 @@ import MenuItems from "./MenuItems.jsx";
 import Title from "./Title.jsx";
 import projects from "./allProjects.jsx";
 import { useState } from "react";
-// import "../styles/projects.css";
+import "../styles/projects.css";
 
 const allCategories = [
   "All",
