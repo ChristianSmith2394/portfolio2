@@ -1,10 +1,10 @@
-import port1 from "../img/portImages/AmazonClone.png";
-import port2 from "../img/portImages/NetflixClone.png";
-import port3 from "../img/portImages/Calculator.png";
-import port4 from "../img/portImages/Todo.png";
-import port5 from "../img/portImages/Flight.png";
-import port6 from "../img/portImages/Hangman.png";
-import port7 from "../img/portImages/Dashboard.png";
+import port1 from "../assets/portImages/AmazonClone.png";
+import port2 from "../assets/portImages/NetflixClone.png";
+import port3 from "../assets/portImages/Calculator.png";
+import port4 from "../assets/portImages/Todo.png";
+import port5 from "../assets/portImages/Flight.png";
+import port6 from "../assets/portImages/Hangman.png";
+import port7 from "../assets/portImages/Dashboard.png";
 
 const projects = [
   {
