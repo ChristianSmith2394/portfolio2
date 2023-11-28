@@ -22,7 +22,7 @@ const projects = [
   {
     id: 2,
     category: "React Js",
-    link1: "",
+    link1: "https://ckt-flights.herokuapp.com/",
     link2: "https://github.com/CKT-Technologies/ckt-flights",
     icon1: "Website",
     icon2: "GitHub",
