@@ -19,7 +19,7 @@
     font-family: myFont;
     font-size: 60px;
     --bg-size: 400%;
-    --cyan: rgb(58, 175, 183);
+    --cyan: rgb(0, 229, 254);
     --purple: rgb(123, 31, 162);
     --blue: rgb(72, 68, 190);
     font-size: clamp(3rem, 25vmin, 8rem);
