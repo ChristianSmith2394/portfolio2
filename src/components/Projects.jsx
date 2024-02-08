@@ -28,9 +28,7 @@ function PortfoliosPage() {
 
   return (
     <div className="PortfolioPage">
-      <div className="title">
-        <Title title={"Portfolios"} span={"portfolios"} />
-      </div>
+      <div className="title"></div>
       <div className="portfolios-data">
         <Categories filter={filter} categories={categories} />
         <MenuItems menuItem={menuItems} />

@@ -10,7 +10,7 @@ function Contact() {
   return (
     <div>
       <div className="title">
-        <Title title={"Contact Me"} />
+        {/* <Title title={"Contact Me"} /> */}
       </div>
       <div className="contact">
         <div className="map-sect">
