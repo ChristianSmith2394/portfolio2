@@ -9,6 +9,7 @@
     font-family: myFont;
     text-decoration: none;
     width: 100vw;
+    font-weight: bold;
   }
 
 .navbar ul {
