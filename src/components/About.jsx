@@ -5,10 +5,10 @@ function About() {
   return (
     <div className="aboutContainer">
       <div className="leftSide">
-        <h2>Part 1</h2>
+        <h2>Photo goes here - import one</h2>
       </div>
       <div className="rightSide">
-        <h2>Part 2</h2>
+        <h2>Biography goes here - downloadable resume underneath</h2>
       </div>
     </div>
   );
