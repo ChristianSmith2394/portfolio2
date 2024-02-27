@@ -1,0 +1,21 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+.leftSide {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding-top: 100px;
+}
+
+.rightSide {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 50%;
+}
