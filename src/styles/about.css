@@ -8,31 +8,24 @@
 
 .leftSide {
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 150px 15px 0px 15px;
     width: 50%;
-    border: 3px solid transparent;
-    --bg-size: 400%;
-    --cyan: rgb(0, 229, 254);
-    --purple: rgb(123, 31, 162);
-    --blue: rgb(72, 68, 190);
-    background: linear-gradient(
-                  90deg,
-                  var(--cyan),
-                  var(--blue),
-                  var(--purple),
-                  var(--cyan)
-                ) 0 0 / var(--bg-size) 100%;
+}
 
-    background-clip: border;
-    -webkit-background-clip: border;
-    animation: move-bg 10s infinite linear;
+.photoBox {
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    /* height: 100%; */
 }
 
 .rightSide {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 150px 15px 0px 15px;
+    padding-top: 150px;
     width: 50%;
 }
