@@ -20,20 +20,24 @@
     font-size: 60px;
     --bg-size: 400%;
     --cyan: rgb(0, 229, 254);
-    --purple: rgb(123, 31, 162);
+    --purple: rgb(125, 28, 167);
+    --magenta: rgb(255,0,255);
     --blue: rgb(72, 68, 190);
+    --black: rgb(0, 0, 0);
     font-size: clamp(3rem, 25vmin, 8rem);
     background: linear-gradient(
                   90deg,
                   var(--cyan),
                   var(--blue),
+                  var(--black),
+                  var(--magenta),
                   var(--purple),
-                  var(--cyan)
+                  var(--black)
                 ) 0 0 / var(--bg-size) 100%;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    animation: move-bg 10s infinite linear;
+    animation: move-bg 12s infinite linear;
   }
   
   @keyframes move-bg {
