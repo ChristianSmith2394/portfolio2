@@ -43,8 +43,8 @@ a:hover {
       0 0 10px #00e5fe,
       0 0 20px #00e5fe,
       0 0 40px #00e5fe,
-      0 0 80px #00e5fe,
-      0 0 160px #00e5fe;
+      0 0 80px #00e5fe
+      /* 0 0 160px #00e5fe; */
 }
 a::before {
   content: '';
