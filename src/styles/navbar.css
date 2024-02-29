@@ -37,7 +37,7 @@ a {
   transition: color 1s, box-shadow 1s;
 }
 a:hover {
-  transition-delay: 0s, 1s;
+  transition-delay: .1s;
   color: #fff;
   box-shadow:
       0 0 10px #00e5fe,
