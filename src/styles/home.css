@@ -31,13 +31,12 @@
                   var(--blue),
                   var(--purple),
                   var(--magenta),
-                  var(--black),
-                  var(--black)
+                  var(--cyan)
                 ) 0 0 / var(--bg-size) 100%;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    animation: move-bg 12s infinite linear;
+    animation: move-bg 10s reverse infinite linear;
   }
   
   @keyframes move-bg {
