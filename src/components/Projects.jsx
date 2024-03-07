@@ -29,7 +29,6 @@ function PortfoliosPage() {
     <div className="PortfolioPage">
       <div className="title"></div>
       <div className="portfolios-data">
-        <Categories filter={filter} categories={categories} />
         <MenuItems menuItem={menuItems} />
       </div>
     </div>

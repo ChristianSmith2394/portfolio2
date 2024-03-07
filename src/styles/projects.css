@@ -79,3 +79,23 @@
         }
     }
 }
+
+/* MOBILE DEVELOPMENT STYLING */
+
+@media (max-width: 450px) {
+    .portfolios-data {
+        display: flex;
+        justify-content: center;
+    }
+    .portfolios {
+        width: 85%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    img {
+        width: auto;
+        height: auto;
+    }
+  }

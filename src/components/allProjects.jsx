@@ -17,7 +17,7 @@ const projects = [
     image: port7,
     title: "Admin Dashboard",
     description:
-      "A place to see all sorts of activity like sales and orders for a company.",
+      "A dashboard to see activity - like sales and orders for your business.",
   },
   {
     id: 2,
