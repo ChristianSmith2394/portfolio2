@@ -64,7 +64,7 @@ a:hover:before {
 
 /* MOBILE DEVELOPMENT STYLING */
 
-@media (min-width: 430px) {
+@media (max-width: 430px) {
   .navbar ul{
     width: 100vw;
     height: fit-content;
