@@ -163,3 +163,9 @@ a {
     color-scheme: dark;
   }
 }
+
+/* MOBILE DEVELOPMENT STYLING */
+
+@media (max-width: 430px) {
+  
+}

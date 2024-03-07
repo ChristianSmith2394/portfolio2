@@ -61,3 +61,23 @@ a::before {
 a:hover:before {
   width: 100%;
 }
+
+/* MOBILE DEVELOPMENT STYLING */
+
+@media (min-width: 430px) {
+  .navbar ul{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  a {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
