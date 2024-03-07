@@ -1,15 +1,12 @@
 import React from "react";
 import "../styles/about.css";
+import selfie from "../assets/portImages/self.png";
 
 function About() {
   return (
     <div className="aboutContainer">
       <div className="leftSide">
-        <h2>Photo goes here - import one</h2>
-        <p>
-          Turn this p tag into a span tag and an img tag in order to add the
-          bg-clip gradient as a border animation to photo
-        </p>
+        <img src={selfie} className="photoBox" />
       </div>
       <div className="rightSide">
         <h2>Add downloadable resume underneath</h2>

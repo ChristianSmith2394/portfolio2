@@ -1,7 +1,6 @@
 import React from "react";
 import Categories from "./Categories.jsx";
 import MenuItems from "./MenuItems.jsx";
-import Title from "./Title.jsx";
 import projects from "./allProjects.jsx";
 import { useState } from "react";
 import "../styles/projects.css";
