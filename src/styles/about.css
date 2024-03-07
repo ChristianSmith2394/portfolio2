@@ -32,3 +32,9 @@
     padding-right: 75px;
     width: 50%;
 }
+
+/* MOBILE DEVELOPMENT STYLING */
+
+@media (max-width: 450px) {
+    
+  }
