@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/about.css";
 import selfie from "../assets/portImages/self.png";
+import myResume from "../assets/Resume/CompletedResume.pdf";
 
 function About() {
   return (
@@ -18,6 +19,10 @@ function About() {
           Lego's, K'Nex, etc. My dream position is Fullstack Development that
           focuses on Javascript, Node, React and SQLite3.
         </p>
+        <a href={myResume} className="btn" download="CompletedResume.pdf">
+          {" "}
+          Download My Resume{" "}
+        </a>
       </div>
     </div>
   );
