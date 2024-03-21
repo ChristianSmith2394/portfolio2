@@ -33,6 +33,10 @@
     width: 50%;
 }
 
+.rightSide p {
+    line-height: 130%;
+}
+
 .rightSide a {
     margin-top: 20px;
 }
