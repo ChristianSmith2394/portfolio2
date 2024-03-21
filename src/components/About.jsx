@@ -10,7 +10,6 @@ function About() {
         <img src={selfie} className="photoBox" />
       </div>
       <div className="rightSide">
-        <h2>Add downloadable resume underneath</h2>
         <p>
           I’m a Fullstack Developer who is passionate about the JavaScript
           ecosystem. I am most skilled and interested about Node (Express) and
